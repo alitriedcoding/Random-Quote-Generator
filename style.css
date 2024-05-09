@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: #3bac3d;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#countiner {
+  background-color: #208c6c;
+  padding: 10px;
+  min-width: 60%;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgb(0, 0, 0, 0.5);
+}
+#Quote{
+    font-size: 35px;
+    margin: 10px;
+}
+h6{
+    margin: 10px;
+    font-size: 15px;
+}
+#btn {
+    width: 200px;
+  background-color: #10580bdf;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#btn:hover {
+  box-shadow: 0 4px 4px rgb(0, 0, 0, 0.3);
+  background-color:#10580bdf ;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
